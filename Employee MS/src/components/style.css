@@ -1,0 +1,50 @@
+.loginpage {
+    background-image: url('Images/loginpage.jpeg');
+    background: linear-gradient(rgba(129, 119, 119, 0.5), rgba(10,10,10,0.5)), url('Images/loginpage.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginForm {
+    background-color: aqua;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginForm label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.loginForm input {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.loginForm .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.loginForm .button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.loginForm .login-button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
